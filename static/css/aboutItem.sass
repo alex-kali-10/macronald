@@ -1,0 +1,175 @@
+.areaForReactItem
+  width: 100%
+  height: 100%
+  display: block
+  position: absolute
+  left: 100%
+  top: 0
+  z-index: 999
+  transition-duration: 0.5s
+  color: #f1ede3
+  &>div
+    width: 100%
+    height: 100%
+
+.left-block
+  left: 0 !important
+
+.deleteReact
+  width: 100%
+  height: 100%
+  background-color: rgba(0,0,0,0.9)
+  position: absolute
+  left: 0
+  top: 0
+  transition-duration: 0.5s
+  cursor: pointer
+  &:hover
+    background-color: rgba(30,30,30,0.85)
+
+
+.aboutItem
+  width: 500px
+  height: 100%
+  display: block
+  position: relative
+  margin-left: auto
+  margin-right: auto
+  background: rgb(32,32,32)
+  overflow: auto
+  .block-avatar
+    width: 400px
+    height: 400px
+    position: absolute
+    left: 50px
+    top: 10px
+    background-size: cover
+  .block-name
+    width: 300px
+    height: 30px
+    display: block
+    position: absolute
+    left: 50px
+    top: 430px
+    font-size: 20px
+  .block-price
+    width: 200px
+    height: 15px
+    display: block
+    position: absolute
+    left: 50px
+    top: 470px
+    font-size: 17px
+  .more-information
+    width: 400px
+    height: 400px
+    position: absolute
+    left: 50px
+    top: 510px
+    overflow: hidden
+    .menu
+      display: block
+      width: 400px
+      height: 40px
+      position: relative
+      text-align: center
+      line-height: 40px
+      cursor: pointer
+      .p1
+        display: block
+        height: 100%
+        width: 33.333%
+        position: relative
+        float: left
+        &::before
+          content: ''
+          width: 100%
+          height: 4px
+          position: absolute
+          left: 0
+          top: 0
+          transition-duration: 0.6s
+          background-color: darkred
+      .p2
+        display: block
+        height: 100%
+        width: 33.333%
+        float: left
+      .p3
+        display: block
+        height: 100%
+        width: 33.333%
+        float: left
+    .block
+      width: 300%
+      position: absolute
+      left: 0
+      top: 40px
+      height: 150px
+      transition-duration: 0.6s
+      font-size: 17px
+      .about
+        width: 380px
+        height: 100%
+        position: relative
+        display: block
+        float: left
+        transition-duration: 0.6s
+        padding-left: 10px
+        padding-right: 10px
+        margin-top: 15px
+      .components
+        width: 380px
+        height: 100%
+        position: relative
+        display: block
+        float: left
+        opacity: 0
+        transition-duration: 0.6s
+        padding-left: 10px
+        padding-right: 10px
+        margin-top: 15px
+        font-size: 15px
+        div
+          position: relative
+          margin-top: 4px
+          margin-left: 5px
+          &::before
+            content: ''
+            display: block
+            position: absolute
+            left: -15px
+            top: 2px
+            width: 8px
+            height: 8px
+            border-radius: 8px/8px
+            border: darkorange 2px solid
+      .more
+        width: 380px
+        height: 100%
+        position: relative
+        display: block
+        float: left
+        opacity: 0
+        transition-duration: 0.6s
+        padding-left: 10px
+        padding-right: 10px
+        margin-top: 15px
+  .view-p2
+    .about
+      opacity: 0 !important
+    .block
+      left: -100% !important
+    .p1::before
+      left: 100%  !important
+    .components
+      opacity: 1 !important
+  .view-p3
+    .about
+      opacity: 0 !important
+    .block
+      left: -200% !important
+    .p1::before
+      left: 200%  !important
+    .more
+      opacity: 1 !important

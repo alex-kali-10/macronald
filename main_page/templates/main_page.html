@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="{% static 'css/reset.css' %}" rel="stylesheet">
+    <link href="{% static 'css/top_menu.css' %}" rel="stylesheet">
+    <link href="{% static 'css/food_menu.css' %}" rel="stylesheet">
+    <link href="{% static 'css/colorStyle.css' %}" rel="stylesheet">
+    <link href="{% static 'css/aboutItem.css' %}" rel="stylesheet">
+    <link href="{% static 'css/rain.css' %}" rel="stylesheet">
+    <link href="{% static 'css/mobile.css' %}" rel="stylesheet">
+    <link href="{% static 'css/other.css' %}" rel="stylesheet">
+    <link href="{% static 'css/loader.css' %}" rel="stylesheet">
+    <script>
+        let csrf = '{{ csrf_token }}';
+        let user = '{{ user }}';
+        let korz = {};
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+</head>
+<body class="colorStyle1">
+
+<div class="top_menu">
+    <div class="first-child"></div>
+    <div class="button ch1"><div class="decoration1"></div><div class="text" onclick="react_content.toPage1()">Меню</div></div>
+    <div class="button ch2"><div class="decoration1"></div><div class="text" onclick="react_content.toPage2()">О нас</div></div>
+    <div class="button ch3"><div class="decoration1"></div><div class="text" onclick="react_content.toPage3()">Акции</div></div>
+    <div class="button ch4"><div class="decoration1"></div><div class="text" onclick="react_content.toPage4()">Качество<div class="bottom-dec"></div></div></div>
+    <div class="last-child"></div>
+</div>
+
+
+<div class="content" id="content">
+
+</div>
+
+<div class="areaForReactItem" id="areaForReactItem"></div>
+
+
+
+<div class="button-menu" onclick="if($('body').hasClass('viewMenu')){$('body').removeClass('viewMenu')}else{$('body').addClass('viewMenu')}"></div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.25.0/babel.min.js"></script>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+
+
+<script type = "text/babel" src="{% static 'js/food_menu.js' %}"></script>
+<script type = "text/babel" src="{% static 'js/view_korz.js' %}"></script>
+<script type = "text/babel" src="{% static 'js/main_page.js' %}"></script>
+<script type = "text/babel" src="{% static 'js/aboutItem.js' %}"></script>
+
+
+</body>
+</html>

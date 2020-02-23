@@ -1,0 +1,615 @@
+@charset "UTF-8";
+.content > div {
+  width: 100%;
+  height: 100%; }
+
+.foodMenu {
+  display: block;
+  width: calc(100% - 402px);
+  height: 100%;
+  background: white;
+  float: left;
+  position: relative;
+  overflow-x: hidden; }
+  .foodMenu .foodMenuSlider {
+    width: 100%;
+    height: 100%; }
+    .foodMenu .foodMenuSlider .slick-list {
+      width: 100%;
+      height: 100%; }
+      .foodMenu .foodMenuSlider .slick-list .slick-track {
+        width: 100%;
+        height: 100%; }
+  .foodMenu .slick-dots {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 30px;
+    width: 100%;
+    background: #1e1e1e;
+    z-index: 9; }
+    .foodMenu .slick-dots::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      cursor: pointer;
+      display: none; }
+    .foodMenu .slick-dots li {
+      display: inline-block;
+      width: 20%;
+      height: 100%; }
+      .foodMenu .slick-dots li button {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background: #1e1e1e;
+        border-color: black;
+        cursor: pointer;
+        font-size: 14px; }
+        .foodMenu .slick-dots li button:hover {
+          background: #282828; }
+  .foodMenu .slide {
+    width: 100%;
+    height: 100%; }
+  .foodMenu .slide1 {
+    background-image: url(../img/left1.jpg);
+    background-size: cover; }
+  .foodMenu .slide2 {
+    background-image: url(../img/left2.jpg);
+    background-size: cover;
+    background-position: center; }
+  .foodMenu .slide3 {
+    background-image: url(../img/left3.jpg);
+    background-size: cover;
+    background-position: center; }
+  .foodMenu .slide4 {
+    background-image: url(../img/left4.jpg);
+    background-size: cover;
+    background-position: center; }
+  .foodMenu .slide5 {
+    background-image: url(../img/left5.jpg);
+    background-size: cover;
+    background-position: center; }
+
+.foodKorz {
+  display: block;
+  width: 400px;
+  height: 100%;
+  background: black;
+  float: left;
+  overflow: auto;
+  border-left: 2px solid #1e1e1e; }
+
+.foodMenuSlider .slick-dots li:nth-child(1) button::before {
+  content: "Бургеры";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  color: #ab1214;
+  font-weight: 800;
+  line-height: 23px;
+  opacity: 0.5; }
+
+.foodMenuSlider .slick-dots li:nth-child(2) button::before {
+  content: "Десерты";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  color: #ffaa21;
+  font-weight: 800;
+  line-height: 23px;
+  opacity: 0.5; }
+
+.foodMenuSlider .slick-dots li:nth-child(3) button::before {
+  content: "Закуски";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  color: olive;
+  font-weight: 800;
+  line-height: 23px;
+  opacity: 0.5; }
+
+.foodMenuSlider .slick-dots li:nth-child(4) button::before {
+  content: "Салаты";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  color: darkgreen;
+  font-weight: 800;
+  line-height: 23px;
+  opacity: 0.5; }
+
+.foodMenuSlider .slick-dots li:nth-child(5) button::before {
+  content: "Напитки";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  color: #005e5e;
+  font-weight: 800;
+  line-height: 23px;
+  opacity: 0.5; }
+
+.foodList {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  overflow: auto;
+  overflow-x: hidden;
+  -webkit-transition-duration: 1.5s;
+          transition-duration: 1.5s;
+  will-change: all; }
+  .foodList::-webkit-scrollbar {
+    width: 5px;
+    height: 3px; }
+  .foodList::-webkit-scrollbar-button {
+    display: none; }
+  .foodList::-webkit-scrollbar-track {
+    background-color: #999; }
+  .foodList::-webkit-scrollbar-track-piece {
+    background-color: #1e1e1e; }
+  .foodList::-webkit-scrollbar-thumb {
+    background-color: #f1ede3;
+    border-radius: 3px; }
+  .foodList > div {
+    padding-top: 30px; }
+  .foodList .block-item {
+    display: inline-block;
+    width: 420px;
+    height: 150px;
+    margin: 5px;
+    background: #202020;
+    position: relative;
+    color: #f1ede3;
+    cursor: pointer; }
+    .foodList .block-item .avatar-item {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 140px;
+      height: 140px;
+      background-size: cover; }
+    .foodList .block-item .name-item {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 250px;
+      height: 30px;
+      padding-top: 10px;
+      text-align: left; }
+    .foodList .block-item .price-item {
+      position: absolute;
+      bottom: 0;
+      left: 150px;
+      width: 100px;
+      height: 30px;
+      text-align: left; }
+    .foodList .block-item .addKorz {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      width: 26px;
+      height: 26px;
+      background: darkred;
+      border-color: darkred;
+      border-radius: 3px;
+      -webkit-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+      cursor: pointer;
+      will-change: backgraund-color, border-color; }
+      .foodList .block-item .addKorz::before {
+        content: "";
+        display: block;
+        width: 16px;
+        height: 2px;
+        left: 3px;
+        top: 10px;
+        background: #1e1e1e;
+        position: absolute; }
+      .foodList .block-item .addKorz::after {
+        content: "";
+        display: block;
+        width: 2px;
+        height: 16px;
+        left: 10px;
+        top: 3px;
+        background: #1e1e1e;
+        position: absolute; }
+    .foodList .block-item .delete {
+      border-radius: 26px/26px;
+      background: rgba(130, 130, 130, 0.7) !important;
+      border-color: rgba(130, 130, 130, 0.7) !important;
+      -webkit-transform: rotate(45deg);
+              transform: rotate(45deg);
+      cursor: pointer; }
+
+.foodKorz {
+  position: relative; }
+  .foodKorz .allInformation {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background: #1e1e1e;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #f1ede3;
+    z-index: 10; }
+    .foodKorz .allInformation .fats {
+      width: 33%;
+      height: 100%;
+      text-align: center;
+      line-height: 40px;
+      display: inline-block; }
+    .foodKorz .allInformation .proteins {
+      width: 34%;
+      height: 100%;
+      text-align: center;
+      line-height: 40px;
+      display: inline-block; }
+    .foodKorz .allInformation .carbohydrates {
+      width: 33%;
+      height: 100%;
+      text-align: center;
+      line-height: 40px;
+      display: inline-block; }
+  .foodKorz .block-item {
+    font-size: 18px;
+    display: block;
+    width: 90%;
+    height: 200px;
+    background-color: #202020;
+    margin-top: 10px;
+    margin-left: 5%;
+    position: relative;
+    color: darkred;
+    will-change: color;
+    cursor: pointer;
+    -webkit-transition: background 1s ease-in-out, color 1s ease-in-out, border-color 1s ease-in-out;
+    transition: background 1s ease-in-out, color 1s ease-in-out, border-color 1s ease-in-out; }
+    .foodKorz .block-item:first-child {
+      margin-top: 50px; }
+    .foodKorz .block-item:last-child {
+      margin-bottom: 90px; }
+    .foodKorz .block-item .avatar-item {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 150px;
+      height: 150px;
+      background-size: cover; }
+    .foodKorz .block-item .price-item {
+      position: absolute;
+      left: 0;
+      bottom: 10px;
+      width: 150px;
+      height: 20px;
+      text-align: center; }
+    .foodKorz .block-item .name-item {
+      position: absolute;
+      right: 0;
+      top: 30px;
+      width: 210px;
+      height: 20px;
+      text-align: center; }
+    .foodKorz .block-item .count-item {
+      position: absolute;
+      right: 50px;
+      bottom: 10px;
+      width: 100px;
+      height: 25px;
+      text-align: center;
+      font-size: 20px; }
+      .foodKorz .block-item .count-item button {
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        background: darkred;
+        border-color: darkred;
+        border-radius: 22px/22px;
+        will-change: backgraund-color, border-color;
+        cursor: pointer; }
+        .foodKorz .block-item .count-item button::before {
+          content: "";
+          display: block;
+          width: 14px;
+          height: 2px;
+          background: #1e1e1e;
+          position: absolute;
+          top: 8px;
+          left: 2px; }
+      .foodKorz .block-item .count-item .minus-item {
+        left: 0;
+        top: 0;
+        -webkit-transition: background 1s ease-in-out, color 1s ease-in-out, border-color 1s ease-in-out;
+        transition: background 1s ease-in-out, color 1s ease-in-out, border-color 1s ease-in-out; }
+      .foodKorz .block-item .count-item .plus-item {
+        right: 0;
+        top: 0;
+        -webkit-transition: background 1s ease-in-out, color 1s ease-in-out, border-color 1s ease-in-out;
+        transition: background 1s ease-in-out, color 1s ease-in-out, border-color 1s ease-in-out; }
+        .foodKorz .block-item .count-item .plus-item::after {
+          content: "";
+          display: block;
+          width: 2px;
+          height: 14px;
+          background: #1e1e1e;
+          position: absolute;
+          top: 2px;
+          left: 8px; }
+  .foodKorz .delete-item {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    width: 22px;
+    height: 22px;
+    background: darkred;
+    border-color: darkred;
+    border-radius: 22px/22px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transition: background 1s ease-in-out, color 1s ease-in-out, border-color 1s ease-in-out;
+    transition: background 1s ease-in-out, color 1s ease-in-out, border-color 1s ease-in-out;
+    will-change: backgraund-color, border-color; }
+    .foodKorz .delete-item::before {
+      content: "";
+      display: block;
+      width: 14px;
+      height: 2px;
+      background: #1e1e1e;
+      position: absolute;
+      top: 8px;
+      left: 2px; }
+    .foodKorz .delete-item::after {
+      content: "";
+      display: block;
+      width: 2px;
+      height: 14px;
+      background: #1e1e1e;
+      position: absolute;
+      top: 2px;
+      left: 8px; }
+
+.listKorz {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  background: rgba(0, 0, 0, 0.8); }
+  .listKorz::-webkit-scrollbar {
+    width: 5px;
+    height: 3px; }
+  .listKorz::-webkit-scrollbar-button {
+    display: none; }
+  .listKorz::-webkit-scrollbar-track {
+    background-color: #999; }
+  .listKorz::-webkit-scrollbar-track-piece {
+    background-color: #1e1e1e; }
+  .listKorz::-webkit-scrollbar-thumb {
+    background-color: #f1ede3;
+    border-radius: 3px; }
+
+.buy {
+  display: block;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #1e1e1e;
+  cursor: pointer;
+  z-index: 10; }
+  .buy::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    width: 100%;
+    height: 8px;
+    background: darkred;
+    -webkit-transition: background 1s ease-in-out, color 1s ease-in-out, border-color 1s ease-in-out;
+    transition: background 1s ease-in-out, color 1s ease-in-out, border-color 1s ease-in-out;
+    will-change: backgraund; }
+  .buy::after {
+    content: "Заказать";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: #f1ede3; }
+  .buy .allPrice {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: #f1ede3; }
+
+.foodKorzSlider {
+  width: 100%;
+  height: 100%; }
+  .foodKorzSlider .slick-list {
+    width: 100%;
+    height: 100%; }
+    .foodKorzSlider .slick-list .slick-track {
+      width: 100%;
+      height: 100%; }
+  .foodKorzSlider .slide1 {
+    background-image: url(../img/right1.png);
+    background-size: cover; }
+  .foodKorzSlider .slide2 {
+    background-image: url(../img/right2.jpg);
+    background-size: cover;
+    background-position: center; }
+  .foodKorzSlider .slide3 {
+    background-image: url(../img/right3.jpg);
+    background-size: cover;
+    background-position: center; }
+  .foodKorzSlider .slide4 {
+    background-image: url(../img/right4.jpg);
+    background-size: cover;
+    background-position: center; }
+  .foodKorzSlider .slide5 {
+    background-image: url(../img/right5.jpg);
+    background-size: cover;
+    background-position: center; }
+
+.areaClick {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; }
+
+.foodList2 {
+  position: absolute;
+  left: -100%;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  overflow: auto;
+  overflow-x: hidden;
+  -webkit-transition-duration: 1.5s;
+          transition-duration: 1.5s;
+  will-change: all; }
+  .foodList2::-webkit-scrollbar {
+    width: 5px;
+    height: 3px; }
+  .foodList2::-webkit-scrollbar-button {
+    display: none; }
+  .foodList2::-webkit-scrollbar-track {
+    background-color: #999; }
+  .foodList2::-webkit-scrollbar-track-piece {
+    background-color: #1e1e1e; }
+  .foodList2::-webkit-scrollbar-thumb {
+    background-color: #f1ede3;
+    border-radius: 3px; }
+  .foodList2 > div {
+    padding-top: 30px; }
+  .foodList2 .block-item {
+    display: inline-block;
+    width: 420px;
+    height: 150px;
+    margin: 5px;
+    background: #202020;
+    position: relative;
+    color: #f1ede3;
+    cursor: pointer; }
+    .foodList2 .block-item .avatar-item {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 140px;
+      height: 140px;
+      background-size: cover; }
+    .foodList2 .block-item .name-item {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 250px;
+      height: 30px;
+      padding-top: 10px;
+      text-align: left; }
+    .foodList2 .block-item .price-item {
+      position: absolute;
+      bottom: 0;
+      left: 150px;
+      width: 100px;
+      height: 30px;
+      text-align: left; }
+    .foodList2 .block-item .addKorz {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      width: 26px;
+      height: 26px;
+      background: darkred;
+      border-color: darkred;
+      border-radius: 3px;
+      -webkit-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+      cursor: pointer;
+      will-change: backgraund-color, border-color; }
+      .foodList2 .block-item .addKorz::before {
+        content: "";
+        display: block;
+        width: 16px;
+        height: 2px;
+        left: 3px;
+        top: 10px;
+        background: #1e1e1e;
+        position: absolute; }
+      .foodList2 .block-item .addKorz::after {
+        content: "";
+        display: block;
+        width: 2px;
+        height: 16px;
+        left: 10px;
+        top: 3px;
+        background: #1e1e1e;
+        position: absolute; }
+    .foodList2 .block-item .delete {
+      border-radius: 26px/26px;
+      background: rgba(130, 130, 130, 0.7) !important;
+      border-color: rgba(130, 130, 130, 0.7) !important;
+      -webkit-transform: rotate(45deg);
+              transform: rotate(45deg);
+      cursor: pointer; }
+
+.food-right2 {
+  left: 100%; }
+
+.food-left {
+  left: 100%;
+  -webkit-transition-duration: 0s;
+          transition-duration: 0s; }
+
+.food-center {
+  left: 0;
+  -webkit-transition-duration: 0s;
+          transition-duration: 0s; }
+
+.food-right {
+  left: -100%;
+  -webkit-transition-duration: 0s;
+          transition-duration: 0s; }
+
+.display::before {
+  display: block !important; }

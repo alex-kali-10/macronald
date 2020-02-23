@@ -1,0 +1,274 @@
+.colorStyle1 .first-child::before {
+  color: #ab1214; }
+.colorStyle1 .first-child::after {
+  background-color: #ab1214; }
+.colorStyle1 .last-child::before {
+  color: #ab1214; }
+.colorStyle1 .last-child::after {
+  background-color: #ab1214; }
+.colorStyle1 .decoration1::before {
+  background-color: #ab1214 !important; }
+.colorStyle1 .decoration1::after {
+  background-color: #ab1214 !important; }
+.colorStyle1 .foodList .addKorz {
+  background-color: #ab1214;
+  border-color: #ab1214; }
+.colorStyle1 .foodList2 .addKorz {
+  background-color: #ab1214;
+  border-color: #ab1214; }
+.colorStyle1 .foodKorz .minus-item {
+  background-color: #ab1214 !important;
+  border-color: #ab1214 !important; }
+.colorStyle1 .foodKorz .plus-item {
+  background-color: #ab1214 !important;
+  border-color: #ab1214 !important; }
+.colorStyle1 .foodKorz .delete-item {
+  background-color: #ab1214 !important;
+  border-color: #ab1214 !important; }
+.colorStyle1 .foodKorz .buy::before {
+  background-color: #ab1214 !important; }
+.colorStyle1 .foodKorz .block-item {
+  color: #ab1214 !important; }
+.colorStyle1 .foodMenuSlider .slick-dots li:nth-child(1) button::before {
+  opacity: 1 !important; }
+.colorStyle1 .p1::before {
+  background-color: #ab1214 !important; }
+.colorStyle1 .mainMenu {
+  border-color: #ab1214 !important; }
+  .colorStyle1 .mainMenu .name {
+    color: #ab1214 !important;
+    border-color: #ab1214 !important; }
+    .colorStyle1 .mainMenu .name::before {
+      background: #ab1214 !important; }
+    .colorStyle1 .mainMenu .name::after {
+      background: #ab1214 !important; }
+  .colorStyle1 .mainMenu > .item {
+    border-color: #ab1214 !important; }
+.colorStyle1 .areaForReactItem .delete-item {
+  border-color: #ab1214 !important; }
+  .colorStyle1 .areaForReactItem .delete-item::before {
+    background: #ab1214 !important; }
+  .colorStyle1 .areaForReactItem .delete-item::after {
+    background: #ab1214 !important; }
+.colorStyle1 .bottom-dec {
+  background: #ab1214 !important; }
+
+.colorStyle2 .first-child::before {
+  color: #ffaa21; }
+.colorStyle2 .first-child::after {
+  background-color: #ffaa21; }
+.colorStyle2 .last-child::before {
+  color: #ffaa21; }
+.colorStyle2 .last-child::after {
+  background-color: #ffaa21; }
+.colorStyle2 .decoration1::before {
+  background-color: #ffaa21 !important; }
+.colorStyle2 .decoration1::after {
+  background-color: #ffaa21 !important; }
+.colorStyle2 .foodList .addKorz {
+  background-color: #ffaa21;
+  border-color: #ffaa21; }
+.colorStyle2 .foodList2 .addKorz {
+  background-color: #ffaa21;
+  border-color: #ffaa21; }
+.colorStyle2 .foodKorz .minus-item {
+  background-color: #ffaa21 !important;
+  border-color: #ffaa21 !important; }
+.colorStyle2 .foodKorz .plus-item {
+  background-color: #ffaa21 !important;
+  border-color: #ffaa21 !important; }
+.colorStyle2 .foodKorz .delete-item {
+  background-color: #ffaa21 !important;
+  border-color: #ffaa21 !important; }
+.colorStyle2 .foodKorz .buy::before {
+  background-color: #ffaa21 !important; }
+.colorStyle2 .foodKorz .block-item {
+  color: #ffaa21 !important; }
+.colorStyle2 .foodMenuSlider .slick-dots li:nth-child(2) button::before {
+  opacity: 1 !important; }
+.colorStyle2 .p1::before {
+  background-color: #ffaa21 !important; }
+.colorStyle2 .mainMenu {
+  border-color: #ffaa21 !important; }
+  .colorStyle2 .mainMenu .name {
+    color: #ffaa21 !important;
+    border-color: #ffaa21 !important; }
+    .colorStyle2 .mainMenu .name::before {
+      background: #ffaa21 !important; }
+    .colorStyle2 .mainMenu .name::after {
+      background: #ffaa21 !important; }
+  .colorStyle2 .mainMenu > .item {
+    border-color: #ffaa21 !important; }
+.colorStyle2 .areaForReactItem .delete-item {
+  border-color: #ffaa21 !important; }
+  .colorStyle2 .areaForReactItem .delete-item::before {
+    background: #ffaa21 !important; }
+  .colorStyle2 .areaForReactItem .delete-item::after {
+    background: #ffaa21 !important; }
+.colorStyle2 .bottom-dec {
+  background: #ffaa21 !important; }
+
+.colorStyle3 .first-child::before {
+  color: olive; }
+.colorStyle3 .first-child::after {
+  background-color: olive; }
+.colorStyle3 .last-child::before {
+  color: olive; }
+.colorStyle3 .last-child::after {
+  background-color: olive; }
+.colorStyle3 .decoration1::before {
+  background-color: olive !important; }
+.colorStyle3 .decoration1::after {
+  background-color: olive !important; }
+.colorStyle3 .foodList .addKorz {
+  background-color: olive;
+  border-color: olive; }
+.colorStyle3 .foodList2 .addKorz {
+  background-color: olive;
+  border-color: olive; }
+.colorStyle3 .foodKorz .minus-item {
+  background-color: olive !important;
+  border-color: olive !important; }
+.colorStyle3 .foodKorz .plus-item {
+  background-color: olive !important;
+  border-color: olive !important; }
+.colorStyle3 .foodKorz .delete-item {
+  background-color: olive !important;
+  border-color: olive !important; }
+.colorStyle3 .foodKorz .buy::before {
+  background-color: olive !important; }
+.colorStyle3 .foodKorz .block-item {
+  color: olive !important; }
+.colorStyle3 .foodMenuSlider .slick-dots li:nth-child(3) button::before {
+  opacity: 1 !important; }
+.colorStyle3 .p1::before {
+  background-color: olive !important; }
+.colorStyle3 .mainMenu {
+  border-color: olive !important; }
+  .colorStyle3 .mainMenu .name {
+    color: olive !important;
+    border-color: olive !important; }
+    .colorStyle3 .mainMenu .name::before {
+      background: olive !important; }
+    .colorStyle3 .mainMenu .name::after {
+      background: olive !important; }
+  .colorStyle3 .mainMenu > .item {
+    border-color: olive !important; }
+.colorStyle3 .areaForReactItem .delete-item {
+  border-color: olive !important; }
+  .colorStyle3 .areaForReactItem .delete-item::before {
+    background: olive !important; }
+  .colorStyle3 .areaForReactItem .delete-item::after {
+    background: olive !important; }
+.colorStyle3 .bottom-dec {
+  background: olive !important; }
+
+.colorStyle4 .first-child::before {
+  color: darkgreen; }
+.colorStyle4 .first-child::after {
+  background-color: darkgreen; }
+.colorStyle4 .last-child::before {
+  color: darkgreen; }
+.colorStyle4 .last-child::after {
+  background-color: darkgreen; }
+.colorStyle4 .decoration1::before {
+  background-color: darkgreen !important; }
+.colorStyle4 .decoration1::after {
+  background-color: darkgreen !important; }
+.colorStyle4 .foodList .addKorz {
+  background-color: darkgreen;
+  border-color: darkgreen; }
+.colorStyle4 .foodList2 .addKorz {
+  background-color: darkgreen;
+  border-color: darkgreen; }
+.colorStyle4 .foodKorz .minus-item {
+  background-color: darkgreen !important;
+  border-color: darkgreen !important; }
+.colorStyle4 .foodKorz .plus-item {
+  background-color: darkgreen !important;
+  border-color: darkgreen !important; }
+.colorStyle4 .foodKorz .delete-item {
+  background-color: darkgreen !important;
+  border-color: darkgreen !important; }
+.colorStyle4 .foodKorz .buy::before {
+  background-color: darkgreen !important; }
+.colorStyle4 .foodKorz .block-item {
+  color: darkgreen !important; }
+.colorStyle4 .foodMenuSlider .slick-dots li:nth-child(4) button::before {
+  opacity: 1 !important; }
+.colorStyle4 .p1::before {
+  background-color: darkgreen !important; }
+.colorStyle4 .mainMenu {
+  border-color: darkgreen !important; }
+  .colorStyle4 .mainMenu .name {
+    color: darkgreen !important;
+    border-color: darkgreen !important; }
+    .colorStyle4 .mainMenu .name::before {
+      background: darkgreen !important; }
+    .colorStyle4 .mainMenu .name::after {
+      background: darkgreen !important; }
+  .colorStyle4 .mainMenu > .item {
+    border-color: darkgreen !important; }
+.colorStyle4 .areaForReactItem .delete-item {
+  border-color: darkgreen !important; }
+  .colorStyle4 .areaForReactItem .delete-item::before {
+    background: darkgreen !important; }
+  .colorStyle4 .areaForReactItem .delete-item::after {
+    background: darkgreen !important; }
+.colorStyle4 .bottom-dec {
+  background: darkgreen !important; }
+
+.colorStyle5 .first-child::before {
+  color: #005e5e; }
+.colorStyle5 .first-child::after {
+  background-color: #005e5e; }
+.colorStyle5 .last-child::before {
+  color: #005e5e; }
+.colorStyle5 .last-child::after {
+  background-color: #005e5e; }
+.colorStyle5 .decoration1::before {
+  background-color: #005e5e !important; }
+.colorStyle5 .decoration1::after {
+  background-color: #005e5e !important; }
+.colorStyle5 .foodList .addKorz {
+  background-color: #005e5e;
+  border-color: #005e5e; }
+.colorStyle5 .foodList2 .addKorz {
+  background-color: #005e5e;
+  border-color: #005e5e; }
+.colorStyle5 .foodKorz .minus-item {
+  background-color: #005e5e !important;
+  border-color: #005e5e !important; }
+.colorStyle5 .foodKorz .plus-item {
+  background-color: #005e5e !important;
+  border-color: #005e5e !important; }
+.colorStyle5 .foodKorz .delete-item {
+  background-color: #005e5e !important;
+  border-color: #005e5e !important; }
+.colorStyle5 .foodKorz .buy::before {
+  background-color: #005e5e !important; }
+.colorStyle5 .foodKorz .block-item {
+  color: #005e5e !important; }
+.colorStyle5 .foodMenuSlider .slick-dots li:nth-child(5) button::before {
+  opacity: 1 !important; }
+.colorStyle5 .p1::before {
+  background-color: #005e5e !important; }
+.colorStyle5 .mainMenu {
+  border-color: #005e5e !important; }
+  .colorStyle5 .mainMenu .name {
+    color: #005e5e !important;
+    border-color: #005e5e !important; }
+    .colorStyle5 .mainMenu .name::before {
+      background: #005e5e !important; }
+    .colorStyle5 .mainMenu .name::after {
+      background: #005e5e !important; }
+  .colorStyle5 .mainMenu > .item {
+    border-color: #005e5e !important; }
+.colorStyle5 .areaForReactItem .delete-item {
+  border-color: #005e5e !important; }
+  .colorStyle5 .areaForReactItem .delete-item::before {
+    background: #005e5e !important; }
+  .colorStyle5 .areaForReactItem .delete-item::after {
+    background: #005e5e !important; }
+.colorStyle5 .bottom-dec {
+  background: #005e5e !important; }

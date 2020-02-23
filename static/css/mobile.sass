@@ -1,0 +1,222 @@
+.mobile-menu
+  display: none
+
+@media (max-width: 850px)
+  .view-ch2
+    .mobile-menu
+      .name
+        &::before,&::after
+          top: 170px !important
+  .view-ch3
+    .mobile-menu
+      .name
+        &::before,&::after
+          top: 230px !important
+  .view-ch4
+    .mobile-menu
+      .name
+        &::before,&::after
+          top: 290px !important
+  .foodMenu
+    position: fixed
+    width: 100%
+    height: 100%
+    z-index: 30
+    left: 0
+    top: 0
+  .block-item:first-child
+    margin-top: 90px
+  .top_menu
+    display: none
+  .button-menu
+    position: fixed
+    top: 40px
+    right: 25px
+    width: 50px
+    height: 50px
+    display: block
+    z-index: 110
+    border-radius: 50px/50px
+    border: #f1ede3 3px solid
+    background: rgba(241, 237, 227, 0.25)
+    cursor: pointer
+    transition: transform 0.5s
+    &::before
+      content: ''
+      position: absolute
+      left: 8px
+      top: 18px
+      height: 3px
+      width: 26px
+      background: #f1ede3
+      transform: rotate(-30deg)
+    &::after
+      content: ''
+      position: absolute
+      left: 8px
+      top: 30px
+      height: 3px
+      width: 26px
+      background: #f1ede3
+      transform: rotate(30deg)
+
+  .mobile-menu
+    display: block
+    position: fixed
+    left: 100%
+    top: 0
+    width: 100%
+    height: 100%
+    z-index: 98
+    background: rgb(35,35,35)
+    transition: 0.5s
+    &>.item
+      width: 100%
+      height: 50px
+      color: #f1ede3
+      margin-top: 7px
+      display: block
+      text-align: center
+      font-size: 18px
+      line-height: 50px
+      border-bottom: #f1ede3 2px solid
+      cursor: pointer
+    &>.item:last-child
+      position: relative
+      &::before
+        content: ''
+        position: absolute
+        right: 20%
+        top: -36px
+        width: 10px
+        height: 10px
+        background: #f1ede3
+        display: block
+        border-radius: 10px/10px
+        transition: 0.5s
+      &::after
+        content: ''
+        position: absolute
+        left: 20%
+        top: -36px
+        width: 10px
+        height: 10px
+        background: #f1ede3
+        display: block
+        border-radius: 10px/10px
+        transition: 0.5s
+    .mainMenu
+      width: 100%
+      text-align: center
+      border-left: #ab1214 2px solid
+      transition: border-color 1s ease-in-out
+      .name
+        font-size: 21px
+        margin-top: 40px
+        color: #ab1214
+        text-align: left
+        padding-left: 30px
+        padding-top: 7px
+        display: block
+        height: 30px
+        width: 85px
+        border-top: #ab1214 2px solid
+        border-bottom: #ab1214 2px solid
+        transition: border-color 1s ease-in-out,color 1s ease-in-out
+        &::before
+          content: ''
+          position: absolute
+          right: 20%
+          top: 110px
+          width: 10px
+          height: 10px
+          background: #ab1214
+          display: block
+          border-radius: 10px/10px
+          transition: top 0.4s ease-in-out,background-color 1s ease-in-out
+        &::after
+          content: ''
+          position: absolute
+          left: 20%
+          top: 110px
+          width: 10px
+          height: 10px
+          background: #ab1214
+          display: block
+          border-radius: 10px/10px
+          transition: top 0.4s ease-in-out,background-color 1s ease-in-out
+      &>.item
+        width: 100%
+        height: 50px
+        color: #f1ede3
+        margin-top: 7px
+        display: block
+        text-align: center
+        font-size: 18px
+        line-height: 50px
+        border-bottom: #ab1214 2px solid
+        cursor: pointer
+        position: relative
+        transition: border-color 1s ease-in-out
+  .content
+    height: 100% !important
+  .viewMenu
+    .mobile-menu
+      left: 0
+    .button-menu
+      transform: rotate(180deg)
+  .mobile-view-korz
+    .foodKorz
+      display: block
+      position: fixed
+      width: 100%
+      height: 100%
+      left: 0
+      top: 0
+      z-index: 30
+    .mobile-menu
+      &>.item:last-child
+        &::before
+          top: 22px !important
+        &::after
+          top: 22px !important
+  .foodKorz
+    width: 100%
+    height: 100%
+    .block-item:first-child
+      margin-top: 100px
+  .areaForReactItem
+    .delete-item
+      position: absolute
+      right: 20px
+      top: 20px
+      width: 40px
+      height: 40px
+      border-radius: 40px/40px
+      border: #f1ede3 3px solid
+      cursor: pointer
+      &::before
+        content: ''
+        position: absolute
+        left: 19px
+        top: 6px
+        height: 29px
+        width: 3px
+        background: #f1ede3
+        transform: rotate(45deg)
+      &::after
+        content: ''
+        position: absolute
+        left: 19px
+        top: 6px
+        height: 29px
+        width: 3px
+        background: #f1ede3
+        transform: rotate(-45deg)
+
+
+
+
+@media (max-width: 500px)
+  .aboutItem
+    width: 100% !important

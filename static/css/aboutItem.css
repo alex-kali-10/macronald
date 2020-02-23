@@ -1,0 +1,179 @@
+.areaForReactItem {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  z-index: 999;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  color: #f1ede3; }
+  .areaForReactItem > div {
+    width: 100%;
+    height: 100%; }
+
+.left-block {
+  left: 0 !important; }
+
+.deleteReact {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  cursor: pointer; }
+  .deleteReact:hover {
+    background-color: rgba(30, 30, 30, 0.85); }
+
+.aboutItem {
+  width: 500px;
+  height: 100%;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background: #202020;
+  overflow: auto; }
+  .aboutItem .block-avatar {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    background-size: cover; }
+  .aboutItem .block-name {
+    width: 300px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    left: 50px;
+    top: 430px;
+    font-size: 20px; }
+  .aboutItem .block-price {
+    width: 200px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    left: 50px;
+    top: 470px;
+    font-size: 17px; }
+  .aboutItem .more-information {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50px;
+    top: 510px;
+    overflow: hidden; }
+    .aboutItem .more-information .menu {
+      display: block;
+      width: 400px;
+      height: 40px;
+      position: relative;
+      text-align: center;
+      line-height: 40px;
+      cursor: pointer; }
+      .aboutItem .more-information .menu .p1 {
+        display: block;
+        height: 100%;
+        width: 33.333%;
+        position: relative;
+        float: left; }
+        .aboutItem .more-information .menu .p1::before {
+          content: "";
+          width: 100%;
+          height: 4px;
+          position: absolute;
+          left: 0;
+          top: 0;
+          -webkit-transition-duration: 0.6s;
+                  transition-duration: 0.6s;
+          background-color: darkred; }
+      .aboutItem .more-information .menu .p2 {
+        display: block;
+        height: 100%;
+        width: 33.333%;
+        float: left; }
+      .aboutItem .more-information .menu .p3 {
+        display: block;
+        height: 100%;
+        width: 33.333%;
+        float: left; }
+    .aboutItem .more-information .block {
+      width: 300%;
+      position: absolute;
+      left: 0;
+      top: 40px;
+      height: 150px;
+      -webkit-transition-duration: 0.6s;
+              transition-duration: 0.6s;
+      font-size: 17px; }
+      .aboutItem .more-information .block .about {
+        width: 380px;
+        height: 100%;
+        position: relative;
+        display: block;
+        float: left;
+        -webkit-transition-duration: 0.6s;
+                transition-duration: 0.6s;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 15px; }
+      .aboutItem .more-information .block .components {
+        width: 380px;
+        height: 100%;
+        position: relative;
+        display: block;
+        float: left;
+        opacity: 0;
+        -webkit-transition-duration: 0.6s;
+                transition-duration: 0.6s;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 15px;
+        font-size: 15px; }
+        .aboutItem .more-information .block .components div {
+          position: relative;
+          margin-top: 4px;
+          margin-left: 5px; }
+          .aboutItem .more-information .block .components div::before {
+            content: "";
+            display: block;
+            position: absolute;
+            left: -15px;
+            top: 2px;
+            width: 8px;
+            height: 8px;
+            border-radius: 8px/8px;
+            border: darkorange 2px solid; }
+      .aboutItem .more-information .block .more {
+        width: 380px;
+        height: 100%;
+        position: relative;
+        display: block;
+        float: left;
+        opacity: 0;
+        -webkit-transition-duration: 0.6s;
+                transition-duration: 0.6s;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 15px; }
+  .aboutItem .view-p2 .about {
+    opacity: 0 !important; }
+  .aboutItem .view-p2 .block {
+    left: -100% !important; }
+  .aboutItem .view-p2 .p1::before {
+    left: 100% !important; }
+  .aboutItem .view-p2 .components {
+    opacity: 1 !important; }
+  .aboutItem .view-p3 .about {
+    opacity: 0 !important; }
+  .aboutItem .view-p3 .block {
+    left: -200% !important; }
+  .aboutItem .view-p3 .p1::before {
+    left: 200% !important; }
+  .aboutItem .view-p3 .more {
+    opacity: 1 !important; }
